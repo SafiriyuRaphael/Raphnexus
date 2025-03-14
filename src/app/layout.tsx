@@ -11,7 +11,6 @@ import FavoriteView from "./wishlist/components/FavoriteView";
 import Footer from "./components/Footer";
 import SideBar from "./components/SideBar";
 
-
 const inter = Inter({
   subsets: ["latin"], // You can add 'latin-ext', 'cyrillic', etc.
   variable: "--font-inter", // Optional: for global CSS use
@@ -31,12 +30,21 @@ const dancingScript = Dancing_Script({
 
 export const metadata: Metadata = {
   title: "RaphNexus - Best Deals on Products & Delicious Bites",
-  description: "Shop top-quality products and explore our food blog featuring pizzas, burgers, and drinks. RaphNexus is your go-to for shopping and food insights.",
+  description:
+    "Shop top-quality products and explore our food blog featuring pizzas, burgers, and drinks. RaphNexus is your go-to for shopping and food insights.",
   keywords: [
-    "ecommerce", "shopping", "best deals", "online store", "RaphNexus",
-    "food blog", "pizza", "burgers", "drinks", "meals"
+    "ecommerce",
+    "shopping",
+    "best deals",
+    "online store",
+    "RaphNexus",
+    "food blog",
+    "pizza",
+    "burgers",
+    "drinks",
+    "meals",
   ],
-  authors: [{ name: "Rapheal Safriryu", url: "https://raphnexus.vercel.app"}],
+  authors: [{ name: "Rapheal Safriryu", url: "https://raphnexus.vercel.app" }],
   creator: "Rapheal Safiriyu",
   publisher: "RaphNexus",
   metadataBase: new URL("https://raphnexus.vercel.app"),
@@ -50,7 +58,8 @@ export const metadata: Metadata = {
   referrer: "strict-origin-when-cross-origin",
   openGraph: {
     title: "RaphNexus - Best Deals & Food Blog",
-    description: "Shop the latest products and check out our food blog for pizza, burgers, and drinks.",
+    description:
+      "Shop the latest products and check out our food blog for pizza, burgers, and drinks.",
     url: "https://raphnexus.vercel.app",
     siteName: "RaphNexus",
     images: [
@@ -85,12 +94,10 @@ export const metadata: Metadata = {
   },
 
   verification: {
-    google: "your-google-verification-code",
+    google: "ewLap_91m8C8JD5ArHoKtx57QoZpcn_j7I3f0tBm-Ts",
     // bing: "your-bing-verification-code",
   },
 };
-
-
 
 export default function RootLayout({
   children,
@@ -98,20 +105,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-      <AuthProvider> 
-    <html lang="en">
-      <body
-        className={`${inter.className} ${sacramento.variable} ${dancingScript.variable}  antialiased`}
+    <AuthProvider>
+      <html lang="en">
+        <body
+          className={`${inter.className} ${sacramento.variable} ${dancingScript.variable}  antialiased`}
         >
-        <Header/>
-        <ScrollToTop/>
-        <SideBar/>
-        <SideCart/>
-        <FavoriteView/>
-        {children}
-        <Footer/>
-      </body>
-    </html>
-        </AuthProvider>
+          <Header />
+          <ScrollToTop />
+          <SideBar />
+          <SideCart />
+          <FavoriteView />
+          {children}
+          <Footer />
+        </body>
+      </html>
+    </AuthProvider>
   );
 }
