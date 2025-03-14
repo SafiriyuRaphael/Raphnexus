@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>http://localhost:3000/shop</loc><lastmod>2025-03-14T16:10:19.486Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/menu</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/our-history</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/our-teams</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/products/bbq-bacon-burger</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/products/bbq-chicken-pizza</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/products/chai-latte</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/products/chicken-tenders</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/products/classic-cheeseburger</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/products/loaded-fries</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/products/mango-smoothie</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/products/mozzarella-sticks</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/products/shrimp-alfredo</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/shop/burgers</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/shop/cold-drinks</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/shop/hot-drinks</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/shop/pasta</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/shop/pizza</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/shop/uncategorized</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/digital-detox</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/hangover-burger</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/red-potato</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/salsa</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/soft-pretzels</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/totoro</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/Mexican</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/Totoro</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/baking</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/beer cheese</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/breakfast</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/burger</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/comfort food</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/crispy</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/cute recipes</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/digital detox</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/dip</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/easy recipes</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/food</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/food art</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/grilled cheese</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/hangover cure</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/mental health</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/pancakes</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/potatoes</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/pretzels</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/recipes</loc><lastmod>2025-03-14T16:10:19.487Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/salsa</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/self-care</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/side dish</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/snacks</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/spicy</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/technology</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/tags/wellness</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/blog/author/admin</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/faqs</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/cart</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/wishlist</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/cart/checkout</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/contact-us</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/about</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/shop/search/bbq-bacon-burger</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/shop/search/bbq-chicken-pizza</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/shop/search/chai-latte</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/shop/search/chicken-tenders</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/shop/search/classic-cheeseburger</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/shop/search/loaded-fries</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/shop/search/mango-smoothie</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/shop/search/mozzarella-sticks</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:3000/shop/search/shrimp-alfredo</loc><lastmod>2025-03-14T16:10:19.488Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+</urlset>
