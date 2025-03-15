@@ -120,7 +120,7 @@ export default function NewEvents() {
                     </div>
                   </Link>
 
-                  <div className="px-7 flex flex-col gap-3">
+                  <div className="px-2 sm:px-7 flex flex-col gap-3">
                     <div
                       className="flex gap-1 text-gray-600 flex-wrap"
                       aria-label="Post details"

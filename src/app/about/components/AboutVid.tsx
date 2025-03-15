@@ -2,6 +2,7 @@
 import { useAuth } from "@/context/AuthContext";
 import PlayButton from "./PlayButton";
 import { useState } from "react";
+import { X } from "lucide-react";
 
 export default function AboutVid() {
   const { video, setVideo } = useAuth();
@@ -43,6 +44,9 @@ export default function AboutVid() {
 
           {/* Responsive Video */}
           <div className="relative z-[100] w-[80vw] max-w-[900px] h-[45vh] md:h-[60vh] aspect-video">
+            <div>
+              <X className="absolute right-0 -top-7 text-gray-300 cursor-pointer hover:text-wrap size-5" onClick={closeVideo}/>
+            </div>
             {videoSrc && (
               <iframe
                 src={videoSrc}
