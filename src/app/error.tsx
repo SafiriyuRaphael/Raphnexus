@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { FaHamburger, FaPizzaSlice, FaUtensils } from "react-icons/fa"; // Import food icons
 
 export default function ErrorPage({
-  error,
   reset,
 }: {
   error: Error;
