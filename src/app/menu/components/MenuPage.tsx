@@ -61,7 +61,7 @@ export default function MenuPage() {
 
   return (
     <motion.div initial="hidden" ref={ref} variants={fastContainerVariants} animate={controls} className="flex items-center flex-col gap-10 py-16 px-7 justify-center">
-      <motion.h1 variants={fastDownCard} className="text-4xl font-bold" aria-label="Menus Of The Day">
+      <motion.h1 variants={fastDownCard} className="text-center text-3xl sm:text-4xl font-bold" aria-label="Menus Of The Day">
         Menus Of The Day
       </motion.h1>
 

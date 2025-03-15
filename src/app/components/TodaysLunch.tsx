@@ -66,7 +66,7 @@ export default function TodaysLunch() {
       {/* Menu Header */}
       <div className="flex flex-col gap-4 font-bold items-center justify-center">
         <h3 className="text-amber-400 fantasy text-3xl">Our Menu</h3>
-        <h2 className="text-4xl">What&apos;s Hot Today</h2>
+        <h2 className="text-center text-3xl sm:text-4xl">What&apos;s Hot Today</h2>
 
         {/* Category Buttons */}
         <div className="flex gap-6 flex-wrap lg:gap-10 items-center justify-center" role="tablist" aria-label="Meal categories">
@@ -103,9 +103,9 @@ export default function TodaysLunch() {
                     {/* Meal Image */}
                     <div>
                       <Image
-                        className="size-32"
+                        className=" h-24  w-full"
                         alt={`Image of ${meal.name}`}
-                        width={400}
+                        width={800}
                         height={300}
                         src={`/menu/${meal.image}.png`}
                         priority={i < 3} // Prioritize first 3 images
@@ -114,7 +114,7 @@ export default function TodaysLunch() {
 
                     {/* Meal Details */}
                     <div className="flex flex-col gap-2">
-                    <Link href={`/products/${meal.name.replace(/\s+/g, "-").toLowerCase()}`} className="hover:text-amber-400">  <h3 className="font-bold whitespace-nowrap">{meal.name}</h3></Link>
+                    <Link href={`/products/${meal.name.replace(/\s+/g, "-").toLowerCase()}`} className="hover:text-amber-400">  <h3 className="font-bold ">{meal.name}</h3></Link>
                       {meal.on_sale ? (
                         <div className="flex font-bold">
                           <p className="line-through text-gray-500" aria-label="Original price">
