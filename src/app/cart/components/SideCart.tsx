@@ -46,7 +46,7 @@ export default function SideCart() {
           sideCart ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="flex justify-between font-bold border-b border-gray-400 px-5 py-5 items-center right-0 sm:w-[20rem] w-[17rem]">
+        <div className="flex justify-between font-bold border-b border-gray-400 px-5 py-5 items-center right-0 sm:w-[20rem] w-[19rem]">
           <h3 className="text-xl">SHOPPING CART</h3>
           <p className="text-sm cursor-pointer group" onClick={closeSideCart}>
             CLOSE <span className="group-hover:text-red-500 ">X</span>
@@ -74,8 +74,9 @@ export default function SideCart() {
                       alt={item.name}
                     />
                   </div>
-                  <div className="flex flex-col ">
-                  <Link href={`/products/${item.name.replace(/\s+/g, "-").toLowerCase()}`} className="hover:text-amber-400"><p>{item.name}</p></Link>
+                  <div className="flex flex-col sm:w-[10rem] w-[9rem]">
+                  <Link href={`/products/${item.name.replace(/\s+/g, "-").toLowerCase()}`} className="hover:text-amber-400" onClick={()=>{setShowFavoritesView(false) 
+                    setSideCart(false)}}><p>{item.name}</p></Link>
                     <p>
                       {item.quantity} x{" "}
                       <span className="text-amber-400">

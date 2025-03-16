@@ -11,15 +11,20 @@ export default function ShoppingCart() {
   useEffect(() => {
     setCartState(cart);
   }, [cart]);
+
   const handleQuantityChange = (
     e: ChangeEvent<HTMLInputElement>,
     name: string
   ) => {
     const value = Number(e.target.value);
+  
+    // Enforce min and max limits
+    const newQuantity = Math.max(1, Math.min(500, value)); // Ensure value is between 1 and 30
+  
     setCartState((prevCart) =>
       prevCart.map((item) =>
         item.name === name
-          ? { ...item, quantity: isNaN(value) || value < 1 ? 1 : value }
+          ? { ...item, quantity: isNaN(newQuantity) ? 1 : newQuantity }
           : item
       )
     );
@@ -98,6 +103,7 @@ export default function ShoppingCart() {
                     type="number"
                     value={item.quantity}
                     min="1"
+                    max="500"
                     onChange={(e) => handleQuantityChange(e, item.name)}
                     className="w-16 border px-2 py-1 text-center"
                   />
