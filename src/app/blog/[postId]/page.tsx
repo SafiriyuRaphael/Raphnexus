@@ -7,7 +7,8 @@ import SideBlog from "../components/SideBlog";
 import { getRestaurantMenu } from "@/lib/getRestaurantMenu";
 import { ChevronRight } from "lucide-react";
 import { Metadata } from "next";
-// export const revalidate = 0;
+
+export const revalidate = 10;
 
 type Params = {
   params: Promise<{ postId: string }>;
@@ -83,9 +84,10 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 export default async function Blog({ params }: Params) {
   const blogs = await getBlogMeta();
   const menu = await getRestaurantMenu();
+
   if (!menu) return;
 
-  if (!blogs) return <h2>Blogs not available try again later</h2>;
+  if (!blogs) return notFound()
 
   const blog = await getPostByName(`${(await params).postId}.mdx`);
   if (!blog) return notFound();

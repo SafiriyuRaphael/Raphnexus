@@ -7,7 +7,7 @@ import SideBlog from "../../components/SideBlog";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 
-// export const revalidate = 36500;
+export const revalidate = 10;
 
 type Params = {
   params: Promise<{ author: string }>;

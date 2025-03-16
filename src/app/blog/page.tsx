@@ -3,6 +3,8 @@ import { ChevronRight } from "lucide-react";
 import Blogs from "./components/Blogs";
 import { Metadata } from "next";
 
+export const revalidate = 10;
+
 export const metadata: Metadata = {
   title: "RaphNexus Blog - Latest Insights & Articles",
   description:
