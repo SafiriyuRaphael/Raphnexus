@@ -32,7 +32,7 @@ export default function Hero() {
     {
       h3: "hot & special",
       h1: "Spicy Fried Chicken",
-      p: "Italian food with special sauce is a flavor you can find only in POCO",
+      p: "Italian food with special sauce is a flavor you can find only in RaphNexus",
       img: "/fried-chicken.png",
     },
     {
